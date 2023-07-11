@@ -100,15 +100,15 @@ input[type="file"] {
 
 input[type="text"] {
     margin: 3px auto;
-    border-radius: 3px; /*заокруглення кутиків (общее)*/
-    -webkit-border-radius: 3px; /*заокруглення кутиків (Google Chrome)*/
-    background: #ffffff !important; /* бажано прописувати, оскільки в Chrome при збереженні данных може бути жовтим*/
-    outline: none; /* видаляє обводку в браузерах хром(желтая) и сафари(синяя)*/
-    height: 40px; /* висота на свое усмотрение*/
-    width: 170px; /* ширина на свое усмотрение*/
-    color: #7a7a7a; /*колір шрифта в звичайному стані*/
-    font-size: 0.9rem; /* розмір шрифта*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Стиль шрифта*/
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 40px;
+    width: 170px;
+    color: #7a7a7a;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     transition: all 0.8s ease 0s;
 }
