@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP-camera</title>
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/element.css">
+   
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="sitename">
+            <img src="img/ico/50.png" alt="camera" width="40px" class="camera-ico">
+            <b>IP-camera</b> <span class="create" onclick="modalInCreate()">Створити нову камеру</span>
+        </div>
+        <div class="searchzonewrapper">
+                <div><input type="search" id="csearch" class="search-field" placeholder="Search your camera.."/></div>
+                <div><button class="blue-btn" id="searchbtn">Пошук</button></div>
+                <div><button class="red-btn" id="cancelbtn">Скасувати</button></div>
+            
+        </div>
+      
+    </div >
+    
+    <div class="workspace">
+        <div class="managezone">
+            <div>
+                <h4 style="border-bottom: 2px solid #cccc; padding-bottom: 3px;">Manage</h4>
+            </div>
+            <div>
+                <div class="switchwrapper">
+                    <div>Сортувати за FPS</div> 
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox" id="sortcheckbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>       
+                </div>
+                <div class="ta-center">
+                    <button class="blue-btn" id="preparebn" onclick="prepare()"> Prepare </button>
+                </div> 
+            </div>
+        </div> 
+        <div class="displayzone">
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <div class="social">
+                Instagram: Ip-camera.shop<br>
+                E-mail: ip_camerashop@gmail.com<br>
+                Site: IP-camera.com.ua
+            </div>
+            <div class="footer-img">
+                <img src="img/ico/footer-logo.png" alt="logo" width="60px">
+            </div>
+            <div class="number">
+                Phone: (+380) 98 54 615 21<br>
+                Viber: (+380) 98 54 615 21<br>
+                Telegram: (+380) 98 74 632 47
+            </div>
+        </div>
+    </div> 
+</div>
+
+
+<script src="js/base.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/main.js"></script>
+<script src="js/element.js"></script>
+<script src="js/sortAndsearh.js"></script>
+<script src="js/prepare.js"></script>
+</body>
+</html>

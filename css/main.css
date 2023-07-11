@@ -1,0 +1,112 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.header {
+    background-color: #232f3e;
+    line-height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.sitename {
+    padding-left: 10px;
+    min-width: 300px;
+    color: white;
+}
+
+.camera-ico{
+    padding-right: 20px;
+}
+
+.sitename b{
+    font-size: 20px;
+}
+
+.create {
+    font-size: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+    color: #cccccc;
+}
+
+.create:hover {
+    color: white;
+}
+
+.searchzonewrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.search-field {
+    width: 200px;;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 10px 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;  
+}
+
+.search-field:focus {
+    width: 350px;
+}
+
+.ta-center{
+    text-align: center;
+    margin-top: 5px;
+}
+   
+.workspace {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.managezone {
+    width: 250px;
+    min-width: 250px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.switchwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.displayzone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer{
+    background-color: #2b405a;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.footer .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

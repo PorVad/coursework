@@ -1,0 +1,37 @@
+.blue-btn {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid #2196F3;
+  background: #FFFFFF;
+  transition: all 0.40s ease;
+  
+}
+
+.blue-btn:hover {
+  color: white ;
+  background: #232f3e; 
+}
+
+.red-btn{
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid red;
+  background: #FFFFFF;
+  transition: all 0.40s ease;
+}
+
+.red-btn:hover {
+  color: white ;
+  background: #232f3e;
+  color: red; 
+}

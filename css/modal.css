@@ -1,0 +1,128 @@
+.cmodal.open .modal-overlay,
+.cmodal.open .modal-window {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.cmodal.hide .modal-overlay,
+.cmodal.hide .modal-window {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.cmodal.open  .modal-window {
+    transform: translateY(100px);
+}
+
+.cmodal.open .modal-overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cmodal.hide  .modal-window {
+    transform: translateY(-200px);
+}
+
+.cmodal.hide .modal-overlay{
+    background: rgba(0, 0, 0, 0);
+}
+
+
+.modal-window, .modal-overlay{
+    opacity: 0;
+    z-index: -1;
+}
+
+.modal-overlay  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.2s ease-in;
+}
+
+.modal-window{
+    width: 600px;
+    border-radius: 16px;
+    background: #fff;
+    margin: 0 auto; 
+    transform: translateY(-200px);
+    transition: transform 0.2s ease-in;
+    
+}
+
+.modal-header {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #232f3e;
+    border-radius: 16px;
+    color: #cccccc;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.modal-close {
+    background-color: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-content{
+    padding: 10px 10px;
+}
+
+.modal-form {
+    text-align: center;
+}
+
+.modal-form-field {
+    margin: 0 auto;
+    padding: 0 3px;
+    height: 36px;
+    width: 250px;
+    border: 2px solid #232f3e;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    border: 2px solid #232f3e;
+    border-radius: 10px;
+    display: inline-block;
+    height: 36px;
+    width: 330px;
+    padding: 6px 12px;
+}
+
+input[type="text"] {
+    margin: 3px auto;
+    border-radius: 3px; /*заокруглення кутиків (общее)*/
+    -webkit-border-radius: 3px; /*заокруглення кутиків (Google Chrome)*/
+    background: #ffffff !important; /* бажано прописувати, оскільки в Chrome при збереженні данных може бути жовтим*/
+    outline: none; /* видаляє обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 40px; /* висота на свое усмотрение*/
+    width: 170px; /* ширина на свое усмотрение*/
+    color: #7a7a7a; /*колір шрифта в звичайному стані*/
+    font-size: 0.9rem; /* розмір шрифта*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Стиль шрифта*/
+    text-align: center;
+    transition: all 0.8s ease 0s;
+}
+
+input[type="text"]:focus {
+    background: #FFFFFF;
+    color: #000000;
+    width: 350px;
+    border: 1px solid #232f3e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #232f3e; 
+}
+
+#imgprev {
+    width: 100px;
+    height: 100px;
+}
